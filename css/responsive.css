@@ -1,11 +1,3 @@
-/******************************************
-    File Name: responsive.css
-    Template Name: Landigoo
-    Created By: MelodyThemes
-    Envato Profile: http://themeforest.net/user/melodythemes
-    Website: https://melodythemes.com
-    Version: 1.0
-/****************************************** */
 
 @media (max-width: 1310px) {}
 @media (max-width: 1200px) {
@@ -147,6 +139,9 @@
 	.panel-body p strong{
 		font-size: 28px;
 	}
+	p {
+		margin: 0 5px 10px;
+	}
 }  
 @media (max-width: 1000px) {}
 
@@ -170,11 +165,13 @@
     border: 2px solid white;
     border-radius: calc(16px * 4);
   }
+ 
 }
 @media (max-width: 768px) {
     .gal-container .modal-content{
         height:250px;
     }
+
 }
 @media (max-width: 768px) {
 	.main-menu nav li a{
@@ -217,20 +214,20 @@
 	.offer-item img{
 		width: 15%;
 		margin: 0 auto;
-		float: none;
+		float: left;
 	}
 	.offer-item .offer-price{
 		width: 65px;
 		height: 65px;
 		line-height: 65px;
 		font-size: 18px;
-		display:none;
+		/* display:none; */
 	}
 	.offer-item div{
 		width: 70%;
 		padding-left: 10px;
 		padding-right: 10px;
-		text-align:center;
+		text-align:left;
 		margin:0 auto;
 		float:none;
 	}
@@ -306,28 +303,34 @@
 	.fixed-menu .main-menu nav li a{
 		padding: 10px 0px;
 	}
+	p {
+		margin: 0 10px 10px;
+	}
 }
 @media (max-width: 600px) {
 	
 }
 @media (max-width: 480px) {
 	.offer-item img{
-		width: 50%;
+		width: 20%;
 	}
 	.offer-item .offer-price{
 		width: 65px;
 		height: 65px;
 		line-height: 65px;
 		font-size: 18px;
-		display:none;
+		/* display:none; */
 	}
 	.offer-item div{
 		width: 100%;
-		padding-left: 10px;
-		padding-right: 10px;
-		text-align: center;
+		padding-left: 25px;
+		padding-right: 20px;
+		text-align: left;
 	}
 	.offer-item div h3{
 		font-size: 16px;
+	}
+	p {
+		margin: 0 50px 10px;
 	}
 }

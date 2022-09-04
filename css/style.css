@@ -1,11 +1,4 @@
-/*------------------------------------------------------------------
-    File Name: style.css
-    Template Name: Landigoo
-    Created By: MelodyThemes
-    Envato Profile: http://themeforest.net/user/melodythemes
-    Website: https://melodythemes.com
-    Version: 1.0
--------------------------------------------------------------------*/
+
 
 /*------------------------------------------------------------------
     [Table of contents]
@@ -854,7 +847,7 @@ html, body{ height: 100%; }
 
 .offer-item .offer-price {
     position: absolute;
-    right: 15px;
+    right: 5px;
     top: 50%;
     display: block;
     width: 92px;
@@ -877,7 +870,7 @@ html, body{ height: 100%; }
 .offer-item div h3 {
     font-size: 20px;
     margin: 9px 0 0px;
-    font-family: 'nautilus_pompiliusregular';
+    font-family: 'Helvetica';
     font-weight: 400;
     letter-spacing: .5px;
 }
